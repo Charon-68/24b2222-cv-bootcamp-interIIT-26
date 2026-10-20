@@ -1,0 +1,22 @@
+{
+  "task4": {
+    "methods": [
+      {
+        "name": "gce",
+        "file": "t4_gce.csv",
+        "val_acc_noisy_labels": 40.32
+      },
+      {
+        "name": "sce",
+        "file": "t4_sce.csv",
+        "val_acc_noisy_labels": 37.5
+      },
+      {
+        "name": "task3_reweight",
+        "file": "t4_task3_reweight.csv",
+        "val_acc_noisy_labels": 32.86
+      }
+    ],
+    "best_method": "gce"
+  }
+}

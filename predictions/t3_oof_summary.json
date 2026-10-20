@@ -1,0 +1,36 @@
+{
+  "method": "5_fold_oof_combined_rank",
+  "epochs_per_fold": 10,
+  "total_training_time_seconds": 7272.352685689926,
+  "primary_submitted_signal": "combined_rank",
+  "best_evaluated_signal": "disagreement",
+  "metrics": {
+    "ce_loss": {
+      "auroc": 0.4991498167258528,
+      "precision_at_k": 0.4069247335578994
+    },
+    "one_minus_p_noisy": {
+      "auroc": 0.4991498167258528,
+      "precision_at_k": 0.4069247335578994
+    },
+    "disagreement": {
+      "auroc": 0.5026220471692785,
+      "precision_at_k": 0.408139599094373
+    },
+    "alt_margin": {
+      "auroc": 0.5003429601456927,
+      "precision_at_k": 0.4064277431111602
+    },
+    "combined_rank": {
+      "auroc": 0.500859887174899,
+      "precision_at_k": 0.4064277431111602
+    }
+  },
+  "leakage_audit": {
+    "clean_labels_used_in_training": false,
+    "clean_labels_used_in_score_construction": false,
+    "clean_labels_used_in_ranking": false,
+    "clean_labels_used_in_fold_split": false,
+    "clean_labels_used_only_for_offline_eval": true
+  }
+}
